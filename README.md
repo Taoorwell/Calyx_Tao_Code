@@ -106,3 +106,26 @@ Supports projects in **mangrove and coastal wetland ecosystems** to quantify **c
 ## 📘 Summary
 Tao’s notebook provides a **comprehensive analytical framework** supporting diverse project types and data sources.  
 Each tool aims to **streamline workflows**, improve **baseline and monitoring accuracy**, and **enhance automation** across projects.
+
+
+## 🚀 Quick Start
+
+Follow these steps to get started with Tao’s Python tools:
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/USERNAME/REPO.git
+cd REPO
+
+# 2. Create and activate the conda environment
+conda env create -f environment_geemap.yml
+conda activate geemap
+
+# 2-1. For LUCA tool you may need a new envrionment
+conda env create -f environment_selen.yml
+conda activate selen
+
+# 3. Launch Jupyter Notebook
+jupyter notebook
+
+
